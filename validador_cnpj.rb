@@ -1,6 +1,5 @@
 def calcular_digitos_verificadores(cnpj)
   cnpj = cnpj.gsub(/\D/, '')
-
   if cnpj.length != 14
     return false
   end

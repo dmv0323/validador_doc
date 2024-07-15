@@ -1,6 +1,5 @@
 def calcular_digitos_verificadores(cpf)
   cpf = cpf.gsub(/\D/, '')
-
   if cpf.length != 11
     return false
   end
