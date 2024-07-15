@@ -2,7 +2,7 @@
 
 Este projeto em Ruby consiste em dois scripts separados para validar CPF (Cadastro de Pessoa Física) e CNPJ (Cadastro Nacional da Pessoa Jurídica). Cada script contém funções específicas para calcular os dígitos verificadores e validar os documentos com base nos algoritmos oficiais.
 
-## `validador_cpf.rb`
+## CPF
 
 Este script Ruby valida CPFs com base nos dígitos verificadores. Aqui está um resumo do que o script faz, seguido de uma explicação dos cálculos matemáticos envolvidos:
 
@@ -30,7 +30,7 @@ Este script Ruby valida CPFs com base nos dígitos verificadores. Aqui está um 
 
 - Detalhes dos cálculos matemáticos para os dígitos verificadores do CPF.
 
-## `validador_cnpj.rb`
+## CNPJ
 
 Este script Ruby valida CNPJs com base nos dígitos verificadores. Aqui está um resumo do que o script faz, seguido de uma explicação dos cálculos matemáticos envolvidos:
 
@@ -60,13 +60,8 @@ Este script Ruby valida CNPJs com base nos dígitos verificadores. Aqui está um
 
 ## Como Rodar os Scripts
 
-1. Salve cada código em arquivos separados: `validador_cpf.rb` e `validador_cnpj.rb`.
+1. Salve cada código em arquivos separados: [validador_cpf.rb](https://github.com/douglas-vitoriano/validador/blob/main/validador_cpf.rb) e [validador_cnpj.rb](https://github.com/douglas-vitoriano/validador/blob/main/validador_cnpj.rb).
 
 2. No terminal, navegue até o diretório onde os arquivos estão salvos.
 
 3. Execute o script desejado com os comandos:
-
-```bash
-ruby validador_cpf.rb
-		ou
-ruby validador_cnpj.rb
