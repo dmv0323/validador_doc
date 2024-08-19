@@ -57,11 +57,3 @@ Este script Ruby valida CNPJs com base nos dígitos verificadores. Aqui está um
 ### Cálculos Matemáticos para os Dígitos Verificadores do CNPJ
 
 - Detalhes dos cálculos matemáticos para os dígitos verificadores do CNPJ.
-
-## Como Rodar os Scripts
-
-1. Salve cada código em arquivos separados: [validador_cpf.rb](https://github.com/douglas-vitoriano/validador/blob/main/validador_cpf.rb) e [validador_cnpj.rb](https://github.com/douglas-vitoriano/validador/blob/main/validador_cnpj.rb)
-
-2. No terminal, navegue até o diretório onde os arquivos estão salvos.
-
-3. Execute o script desejado com os comandos:
